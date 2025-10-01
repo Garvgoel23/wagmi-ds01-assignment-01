@@ -1,4 +1,60 @@
 -------------------------------------------------------------------------------
 Test set: test.java.com.wagmi.finance.recursion.RecursionUtilsTest
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in test.java.com.wagmi.finance.recursion.RecursionUtilsTest
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 0.061 s <<< FAILURE! -- in test.java.com.wagmi.finance.recursion.RecursionUtilsTest
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_handles_null_category -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_handles_null_category(RecursionUtilsTest.java:81)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.generateBudgetReportRecursive_handles_empty_array -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.generateBudgetReportRecursive_handles_empty_array(RecursionUtilsTest.java:110)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_handles_large_array -- Time elapsed: 0.014 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_handles_large_array(RecursionUtilsTest.java:90)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_handles_whitespace -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_handles_whitespace(RecursionUtilsTest.java:140)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_validates_yyyy_mm_dd -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_validates_yyyy_mm_dd(RecursionUtilsTest.java:16)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.generateBudgetReportRecursive_handles_large_array -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.generateBudgetReportRecursive_handles_large_array(RecursionUtilsTest.java:122)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.generateBudgetReportRecursive_includes_category_breakdown -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.generateBudgetReportRecursive_includes_category_breakdown(RecursionUtilsTest.java:134)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_sums_matching_category -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_sums_matching_category(RecursionUtilsTest.java:29)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_handles_boundary_values -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_handles_boundary_values(RecursionUtilsTest.java:65)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_handles_invalid_formats -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_handles_invalid_formats(RecursionUtilsTest.java:55)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_handles_empty_array -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_handles_empty_array(RecursionUtilsTest.java:73)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_handles_edge_dates -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.isValidDateRecursive_handles_edge_dates(RecursionUtilsTest.java:46)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.generateBudgetReportRecursive_returns_non_empty_string -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.generateBudgetReportRecursive_returns_non_empty_string(RecursionUtilsTest.java:39)
+
+test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_handles_mixed_categories -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.recursion.RecursionUtilsTest.categoryTotalRecursive_handles_mixed_categories(RecursionUtilsTest.java:102)
+

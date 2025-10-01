@@ -27,6 +27,16 @@ public final class Sorters {
     }
 
     public static void insertionSortByCategory(Transaction[] arr, Comparator<String> categoryComparator) {
+        int n = arr.length;
+        for (int i =0; i< n-1; i++){
+            Transaction index = arr[i];
+            int j = i - 1;
+            while (j> 0 && categoryComparator.compare(arr[j].getCategory(), index.getCategory()) > 0){
+                arr[j+1] = arr[j];
+                j-- ;
+            }
+            arr[j+1] = index;
+        }
         // stub for insertion sort by category string
         throw new UnsupportedOperationException("Not implemented");
     }

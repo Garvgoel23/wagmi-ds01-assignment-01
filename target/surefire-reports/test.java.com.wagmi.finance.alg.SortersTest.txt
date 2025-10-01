@@ -1,4 +1,64 @@
 -------------------------------------------------------------------------------
 Test set: test.java.com.wagmi.finance.alg.SortersTest
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in test.java.com.wagmi.finance.alg.SortersTest
+Tests run: 15, Failures: 0, Errors: 15, Skipped: 0, Time elapsed: 0.095 s <<< FAILURE! -- in test.java.com.wagmi.finance.alg.SortersTest
+test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_empty_array -- Time elapsed: 0.017 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_empty_array(SortersTest.java:143)
+
+test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_duplicate_categories -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_duplicate_categories(SortersTest.java:161)
+
+test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_uses_custom_comparator -- Time elapsed: 0.009 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_uses_custom_comparator(SortersTest.java:54)
+
+test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_negative_amounts -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_negative_amounts(SortersTest.java:94)
+
+test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_single_element -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_single_element(SortersTest.java:70)
+
+test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_duplicate_dates -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_duplicate_dates(SortersTest.java:121)
+
+test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_duplicate_amounts -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_duplicate_amounts(SortersTest.java:81)
+
+test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_year_boundaries -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_year_boundaries(SortersTest.java:134)
+
+test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_single_element -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_single_element(SortersTest.java:150)
+
+test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_single_element -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_single_element(SortersTest.java:110)
+
+test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_empty_array -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_empty_array(SortersTest.java:63)
+
+test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_with_reverse_comparator -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_with_reverse_comparator(SortersTest.java:174)
+
+test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_sorts_by_date_ascending -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_sorts_by_date_ascending(SortersTest.java:41)
+
+test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_empty_array -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_empty_array(SortersTest.java:103)
+
+test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_sorts_ascending_and_handles_edges -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented
+	at test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_sorts_ascending_and_handles_edges(SortersTest.java:27)
+
