@@ -9,6 +9,8 @@ package main.java.com.wagmi.finance.alg;
 
 import main.java.com.wagmi.finance.model.Transaction;
 
+import static java.lang.IO.println;
+
 public final class Search {
     private Search() {
     }
