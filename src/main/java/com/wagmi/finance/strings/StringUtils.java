@@ -13,6 +13,7 @@ public final class StringUtils {
     }
 
     public static String sanitizeDescription(String input) {
+
         // stub: trim, collapse spaces, remove invalid chars
         throw new UnsupportedOperationException("Not implemented");
     }
